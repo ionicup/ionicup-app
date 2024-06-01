@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62387B32C08977500554C51 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62387B22C08977500554C51 /* EventList.swift */; };
+		A62387B52C08984000554C51 /* DisclosureGroupStyle+pile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62387B42C08984000554C51 /* DisclosureGroupStyle+pile.swift */; };
+		A62387B72C08C36700554C51 /* ButtonStyle+matchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62387B62C08C36700554C51 /* ButtonStyle+matchRow.swift */; };
+		A62EEA322C07A0E100E3AD4D /* Court.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EEA312C07A0E100E3AD4D /* Court.swift */; };
+		A62EEA342C07A11100E3AD4D /* CourtEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EEA332C07A11100E3AD4D /* CourtEditor.swift */; };
+		A62EEA362C07A64A00E3AD4D /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EEA352C07A64A00E3AD4D /* EventEditor.swift */; };
+		A62EEA382C07FDD900E3AD4D /* Binding+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EEA372C07FDD900E3AD4D /* Binding+init.swift */; };
+		A67F9A2D2C06335A00F41586 /* IonicupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A2C2C06335A00F41586 /* IonicupApp.swift */; };
+		A67F9A2F2C06335A00F41586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A2E2C06335A00F41586 /* ContentView.swift */; };
+		A67F9A372C06335A00F41586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67F9A362C06335A00F41586 /* Preview Assets.xcassets */; };
+		A67F9A6C2C0633B100F41586 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A3D2C0633B100F41586 /* Season.swift */; };
+		A67F9A6D2C0633B100F41586 /* Season+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A3E2C0633B100F41586 /* Season+SampleData.swift */; };
+		A67F9A6E2C0633B100F41586 /* SeasonEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A3F2C0633B100F41586 /* SeasonEditor.swift */; };
+		A67F9A6F2C0633B100F41586 /* SeasonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A402C0633B100F41586 /* SeasonView.swift */; };
+		A67F9A702C0633B100F41586 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A422C0633B100F41586 /* Tournament.swift */; };
+		A67F9A712C0633B100F41586 /* Tournament+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A432C0633B100F41586 /* Tournament+SampleData.swift */; };
+		A67F9A722C0633B100F41586 /* TournamentAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A442C0633B100F41586 /* TournamentAlgorithms.swift */; };
+		A67F9A732C0633B100F41586 /* TournamentEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A452C0633B100F41586 /* TournamentEditor.swift */; };
+		A67F9A742C0633B100F41586 /* TournamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A462C0633B100F41586 /* TournamentView.swift */; };
+		A67F9A762C0633B100F41586 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A492C0633B100F41586 /* Rank.swift */; };
+		A67F9A772C0633B100F41586 /* RankEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A4A2C0633B100F41586 /* RankEditor.swift */; };
+		A67F9A782C0633B100F41586 /* RankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A4B2C0633B100F41586 /* RankRow.swift */; };
+		A67F9A792C0633B100F41586 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A4D2C0633B100F41586 /* Event.swift */; };
+		A67F9A7A2C0633B100F41586 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A4F2C0633B100F41586 /* League.swift */; };
+		A67F9A7B2C0633B100F41586 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A512C0633B100F41586 /* Team.swift */; };
+		A67F9A7C2C0633B100F41586 /* Team+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A522C0633B100F41586 /* Team+SampleData.swift */; };
+		A67F9A7D2C0633B100F41586 /* TeamEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A532C0633B100F41586 /* TeamEditor.swift */; };
+		A67F9A7F2C0633B100F41586 /* ModelContainer+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A562C0633B100F41586 /* ModelContainer+SampleData.swift */; };
+		A67F9A802C0633B100F41586 /* ModelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A572C0633B100F41586 /* ModelPreview.swift */; };
+		A67F9A812C0633B100F41586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67F9A582C0633B100F41586 /* Preview Assets.xcassets */; };
+		A67F9A822C0633B100F41586 /* View+onFirstAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A5A2C0633B100F41586 /* View+onFirstAppear.swift */; };
+		A67F9A832C0633B100F41586 /* MatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A5C2C0633B100F41586 /* MatchEvent.swift */; };
+		A67F9A842C0633B100F41586 /* MatchEventsEditorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A5D2C0633B100F41586 /* MatchEventsEditorSection.swift */; };
+		A67F9A852C0633B100F41586 /* MatchRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A5F2C0633B100F41586 /* MatchRules.swift */; };
+		A67F9A862C0633B100F41586 /* MatchRulesEditorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A602C0633B100F41586 /* MatchRulesEditorSection.swift */; };
+		A67F9A872C0633B100F41586 /* MatchScoredPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A622C0633B100F41586 /* MatchScoredPoint.swift */; };
+		A67F9A882C0633B100F41586 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A642C0633B100F41586 /* Match.swift */; };
+		A67F9A892C0633B100F41586 /* Match+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A652C0633B100F41586 /* Match+SampleData.swift */; };
+		A67F9A8A2C0633B100F41586 /* MatchEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A662C0633B100F41586 /* MatchEditor.swift */; };
+		A67F9A8B2C0633B100F41586 /* MatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A672C0633B100F41586 /* MatchList.swift */; };
+		A67F9A8C2C0633B100F41586 /* MatchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A682C0633B100F41586 /* MatchRow.swift */; };
+		A67F9A8D2C0633B100F41586 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67F9A692C0633B100F41586 /* MatchView.swift */; };
+		A67F9A8E2C0633B100F41586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67F9A6B2C0633B100F41586 /* Assets.xcassets */; };
+		A67F9A912C0633E800F41586 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = A67F9A902C0633E800F41586 /* Algorithms */; };
+		A6A6F9632C0AC7710071DC77 /* IonicupModels in Frameworks */ = {isa = PBXBuildFile; productRef = A6A6F9622C0AC7710071DC77 /* IonicupModels */; };
+		A6A6F9662C0B61AF0071DC77 /* IonicupModels in Frameworks */ = {isa = PBXBuildFile; productRef = A6A6F9652C0B61AF0071DC77 /* IonicupModels */; };
+		A6CDFBD52C06370C0086481F /* VariadicViews in Frameworks */ = {isa = PBXBuildFile; productRef = A6CDFBD42C06370C0086481F /* VariadicViews */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62387B22C08977500554C51 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		A62387B42C08984000554C51 /* DisclosureGroupStyle+pile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DisclosureGroupStyle+pile.swift"; sourceTree = "<group>"; };
+		A62387B62C08C36700554C51 /* ButtonStyle+matchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonStyle+matchRow.swift"; sourceTree = "<group>"; };
+		A62EEA312C07A0E100E3AD4D /* Court.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Court.swift; sourceTree = "<group>"; };
+		A62EEA332C07A11100E3AD4D /* CourtEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtEditor.swift; sourceTree = "<group>"; };
+		A62EEA352C07A64A00E3AD4D /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		A62EEA372C07FDD900E3AD4D /* Binding+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+init.swift"; sourceTree = "<group>"; };
+		A67F9A292C06335A00F41586 /* Ionicup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ionicup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67F9A2C2C06335A00F41586 /* IonicupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicupApp.swift; sourceTree = "<group>"; };
+		A67F9A2E2C06335A00F41586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A67F9A342C06335A00F41586 /* Ionicup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ionicup.entitlements; sourceTree = "<group>"; };
+		A67F9A362C06335A00F41586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A67F9A3D2C0633B100F41586 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		A67F9A3E2C0633B100F41586 /* Season+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Season+SampleData.swift"; sourceTree = "<group>"; };
+		A67F9A3F2C0633B100F41586 /* SeasonEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonEditor.swift; sourceTree = "<group>"; };
+		A67F9A402C0633B100F41586 /* SeasonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonView.swift; sourceTree = "<group>"; };
+		A67F9A422C0633B100F41586 /* Tournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		A67F9A432C0633B100F41586 /* Tournament+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tournament+SampleData.swift"; sourceTree = "<group>"; };
+		A67F9A442C0633B100F41586 /* TournamentAlgorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentAlgorithms.swift; sourceTree = "<group>"; };
+		A67F9A452C0633B100F41586 /* TournamentEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentEditor.swift; sourceTree = "<group>"; };
+		A67F9A462C0633B100F41586 /* TournamentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentView.swift; sourceTree = "<group>"; };
+		A67F9A492C0633B100F41586 /* Rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		A67F9A4A2C0633B100F41586 /* RankEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankEditor.swift; sourceTree = "<group>"; };
+		A67F9A4B2C0633B100F41586 /* RankRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankRow.swift; sourceTree = "<group>"; };
+		A67F9A4D2C0633B100F41586 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A67F9A4F2C0633B100F41586 /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		A67F9A512C0633B100F41586 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		A67F9A522C0633B100F41586 /* Team+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Team+SampleData.swift"; sourceTree = "<group>"; };
+		A67F9A532C0633B100F41586 /* TeamEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamEditor.swift; sourceTree = "<group>"; };
+		A67F9A562C0633B100F41586 /* ModelContainer+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ModelContainer+SampleData.swift"; sourceTree = "<group>"; };
+		A67F9A572C0633B100F41586 /* ModelPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPreview.swift; sourceTree = "<group>"; };
+		A67F9A582C0633B100F41586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A67F9A5A2C0633B100F41586 /* View+onFirstAppear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+onFirstAppear.swift"; sourceTree = "<group>"; };
+		A67F9A5C2C0633B100F41586 /* MatchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchEvent.swift; sourceTree = "<group>"; };
+		A67F9A5D2C0633B100F41586 /* MatchEventsEditorSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchEventsEditorSection.swift; sourceTree = "<group>"; };
+		A67F9A5F2C0633B100F41586 /* MatchRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchRules.swift; sourceTree = "<group>"; };
+		A67F9A602C0633B100F41586 /* MatchRulesEditorSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchRulesEditorSection.swift; sourceTree = "<group>"; };
+		A67F9A622C0633B100F41586 /* MatchScoredPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchScoredPoint.swift; sourceTree = "<group>"; };
+		A67F9A642C0633B100F41586 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		A67F9A652C0633B100F41586 /* Match+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Match+SampleData.swift"; sourceTree = "<group>"; };
+		A67F9A662C0633B100F41586 /* MatchEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchEditor.swift; sourceTree = "<group>"; };
+		A67F9A672C0633B100F41586 /* MatchList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchList.swift; sourceTree = "<group>"; };
+		A67F9A682C0633B100F41586 /* MatchRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchRow.swift; sourceTree = "<group>"; };
+		A67F9A692C0633B100F41586 /* MatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		A67F9A6B2C0633B100F41586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67F9A262C06335A00F41586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A6F9662C0B61AF0071DC77 /* IonicupModels in Frameworks */,
+				A6CDFBD52C06370C0086481F /* VariadicViews in Frameworks */,
+				A67F9A912C0633E800F41586 /* Algorithms in Frameworks */,
+				A6A6F9632C0AC7710071DC77 /* IonicupModels in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62EEA302C07A0D600E3AD4D /* Court */ = {
+			isa = PBXGroup;
+			children = (
+				A62EEA312C07A0E100E3AD4D /* Court.swift */,
+				A62EEA332C07A11100E3AD4D /* CourtEditor.swift */,
+			);
+			path = Court;
+			sourceTree = "<group>";
+		};
+		A67F9A202C06335900F41586 = {
+			isa = PBXGroup;
+			children = (
+				A67F9A2B2C06335A00F41586 /* Ionicup */,
+				A67F9A2A2C06335A00F41586 /* Products */,
+				A6CDFBD32C06370C0086481F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A67F9A2A2C06335A00F41586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A292C06335A00F41586 /* Ionicup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67F9A2B2C06335A00F41586 /* Ionicup */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A5B2C0633B100F41586 /* Extensions */,
+				A67F9A2C2C06335A00F41586 /* IonicupApp.swift */,
+				A67F9A6B2C0633B100F41586 /* Assets.xcassets */,
+				A67F9A2E2C06335A00F41586 /* ContentView.swift */,
+				A67F9A502C0633B100F41586 /* League */,
+				A62EEA302C07A0D600E3AD4D /* Court */,
+				A67F9A6A2C0633B100F41586 /* Match */,
+				A67F9A592C0633B100F41586 /* Preview Content */,
+				A67F9A4C2C0633B100F41586 /* Rank */,
+				A67F9A4E2C0633B100F41586 /* Event */,
+				A67F9A412C0633B100F41586 /* Season */,
+				A67F9A542C0633B100F41586 /* Team */,
+				A67F9A472C0633B100F41586 /* Tournament */,
+				A67F9A342C06335A00F41586 /* Ionicup.entitlements */,
+				A67F9A352C06335A00F41586 /* Preview Content */,
+			);
+			path = Ionicup;
+			sourceTree = "<group>";
+		};
+		A67F9A352C06335A00F41586 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A362C06335A00F41586 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A67F9A412C0633B100F41586 /* Season */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A3D2C0633B100F41586 /* Season.swift */,
+				A67F9A3E2C0633B100F41586 /* Season+SampleData.swift */,
+				A67F9A3F2C0633B100F41586 /* SeasonEditor.swift */,
+				A67F9A402C0633B100F41586 /* SeasonView.swift */,
+			);
+			path = Season;
+			sourceTree = "<group>";
+		};
+		A67F9A472C0633B100F41586 /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A422C0633B100F41586 /* Tournament.swift */,
+				A67F9A432C0633B100F41586 /* Tournament+SampleData.swift */,
+				A67F9A442C0633B100F41586 /* TournamentAlgorithms.swift */,
+				A67F9A452C0633B100F41586 /* TournamentEditor.swift */,
+				A67F9A462C0633B100F41586 /* TournamentView.swift */,
+			);
+			path = Tournament;
+			sourceTree = "<group>";
+		};
+		A67F9A4C2C0633B100F41586 /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A492C0633B100F41586 /* Rank.swift */,
+				A67F9A4A2C0633B100F41586 /* RankEditor.swift */,
+				A67F9A4B2C0633B100F41586 /* RankRow.swift */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		A67F9A4E2C0633B100F41586 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A4D2C0633B100F41586 /* Event.swift */,
+				A62EEA352C07A64A00E3AD4D /* EventEditor.swift */,
+				A62387B22C08977500554C51 /* EventList.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		A67F9A502C0633B100F41586 /* League */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A4F2C0633B100F41586 /* League.swift */,
+			);
+			path = League;
+			sourceTree = "<group>";
+		};
+		A67F9A542C0633B100F41586 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A512C0633B100F41586 /* Team.swift */,
+				A67F9A522C0633B100F41586 /* Team+SampleData.swift */,
+				A67F9A532C0633B100F41586 /* TeamEditor.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		A67F9A592C0633B100F41586 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A562C0633B100F41586 /* ModelContainer+SampleData.swift */,
+				A67F9A572C0633B100F41586 /* ModelPreview.swift */,
+				A67F9A582C0633B100F41586 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A67F9A5B2C0633B100F41586 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A5A2C0633B100F41586 /* View+onFirstAppear.swift */,
+				A62EEA372C07FDD900E3AD4D /* Binding+init.swift */,
+				A62387B42C08984000554C51 /* DisclosureGroupStyle+pile.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A67F9A5E2C0633B100F41586 /* MatchEvent */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A5C2C0633B100F41586 /* MatchEvent.swift */,
+				A67F9A5D2C0633B100F41586 /* MatchEventsEditorSection.swift */,
+			);
+			path = MatchEvent;
+			sourceTree = "<group>";
+		};
+		A67F9A612C0633B100F41586 /* MatchRules */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A5F2C0633B100F41586 /* MatchRules.swift */,
+				A67F9A602C0633B100F41586 /* MatchRulesEditorSection.swift */,
+			);
+			path = MatchRules;
+			sourceTree = "<group>";
+		};
+		A67F9A632C0633B100F41586 /* MatchScoredPoint */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A622C0633B100F41586 /* MatchScoredPoint.swift */,
+			);
+			path = MatchScoredPoint;
+			sourceTree = "<group>";
+		};
+		A67F9A6A2C0633B100F41586 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				A67F9A5E2C0633B100F41586 /* MatchEvent */,
+				A67F9A612C0633B100F41586 /* MatchRules */,
+				A67F9A632C0633B100F41586 /* MatchScoredPoint */,
+				A67F9A642C0633B100F41586 /* Match.swift */,
+				A67F9A652C0633B100F41586 /* Match+SampleData.swift */,
+				A67F9A662C0633B100F41586 /* MatchEditor.swift */,
+				A67F9A672C0633B100F41586 /* MatchList.swift */,
+				A67F9A682C0633B100F41586 /* MatchRow.swift */,
+				A67F9A692C0633B100F41586 /* MatchView.swift */,
+				A62387B62C08C36700554C51 /* ButtonStyle+matchRow.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		A6CDFBD32C06370C0086481F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67F9A282C06335A00F41586 /* Ionicup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67F9A3A2C06335A00F41586 /* Build configuration list for PBXNativeTarget "Ionicup" */;
+			buildPhases = (
+				A67F9A252C06335A00F41586 /* Sources */,
+				A67F9A262C06335A00F41586 /* Frameworks */,
+				A67F9A272C06335A00F41586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ionicup;
+			packageProductDependencies = (
+				A67F9A902C0633E800F41586 /* Algorithms */,
+				A6CDFBD42C06370C0086481F /* VariadicViews */,
+				A6A6F9622C0AC7710071DC77 /* IonicupModels */,
+				A6A6F9652C0B61AF0071DC77 /* IonicupModels */,
+			);
+			productName = Ionicup;
+			productReference = A67F9A292C06335A00F41586 /* Ionicup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67F9A212C06335900F41586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A67F9A282C06335A00F41586 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A67F9A242C06335900F41586 /* Build configuration list for PBXProject "Ionicup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67F9A202C06335900F41586;
+			packageReferences = (
+				A67F9A8F2C0633E800F41586 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				A6CDFBD22C06354C0086481F /* XCRemoteSwiftPackageReference "swiftui-variadic-views" */,
+				A6A6F9642C0B61AF0071DC77 /* XCRemoteSwiftPackageReference "ionicup-models" */,
+			);
+			productRefGroup = A67F9A2A2C06335A00F41586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67F9A282C06335A00F41586 /* Ionicup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67F9A272C06335A00F41586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67F9A372C06335A00F41586 /* Preview Assets.xcassets in Resources */,
+				A67F9A812C0633B100F41586 /* Preview Assets.xcassets in Resources */,
+				A67F9A8E2C0633B100F41586 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67F9A252C06335A00F41586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67F9A8A2C0633B100F41586 /* MatchEditor.swift in Sources */,
+				A67F9A862C0633B100F41586 /* MatchRulesEditorSection.swift in Sources */,
+				A67F9A7B2C0633B100F41586 /* Team.swift in Sources */,
+				A67F9A7D2C0633B100F41586 /* TeamEditor.swift in Sources */,
+				A62387B32C08977500554C51 /* EventList.swift in Sources */,
+				A67F9A702C0633B100F41586 /* Tournament.swift in Sources */,
+				A67F9A2F2C06335A00F41586 /* ContentView.swift in Sources */,
+				A67F9A8C2C0633B100F41586 /* MatchRow.swift in Sources */,
+				A67F9A772C0633B100F41586 /* RankEditor.swift in Sources */,
+				A67F9A822C0633B100F41586 /* View+onFirstAppear.swift in Sources */,
+				A62387B72C08C36700554C51 /* ButtonStyle+matchRow.swift in Sources */,
+				A67F9A8D2C0633B100F41586 /* MatchView.swift in Sources */,
+				A67F9A8B2C0633B100F41586 /* MatchList.swift in Sources */,
+				A67F9A712C0633B100F41586 /* Tournament+SampleData.swift in Sources */,
+				A67F9A6E2C0633B100F41586 /* SeasonEditor.swift in Sources */,
+				A67F9A7F2C0633B100F41586 /* ModelContainer+SampleData.swift in Sources */,
+				A67F9A842C0633B100F41586 /* MatchEventsEditorSection.swift in Sources */,
+				A67F9A792C0633B100F41586 /* Event.swift in Sources */,
+				A67F9A742C0633B100F41586 /* TournamentView.swift in Sources */,
+				A67F9A722C0633B100F41586 /* TournamentAlgorithms.swift in Sources */,
+				A67F9A7C2C0633B100F41586 /* Team+SampleData.swift in Sources */,
+				A67F9A732C0633B100F41586 /* TournamentEditor.swift in Sources */,
+				A67F9A832C0633B100F41586 /* MatchEvent.swift in Sources */,
+				A67F9A892C0633B100F41586 /* Match+SampleData.swift in Sources */,
+				A67F9A6C2C0633B100F41586 /* Season.swift in Sources */,
+				A67F9A852C0633B100F41586 /* MatchRules.swift in Sources */,
+				A67F9A6F2C0633B100F41586 /* SeasonView.swift in Sources */,
+				A67F9A6D2C0633B100F41586 /* Season+SampleData.swift in Sources */,
+				A67F9A882C0633B100F41586 /* Match.swift in Sources */,
+				A67F9A872C0633B100F41586 /* MatchScoredPoint.swift in Sources */,
+				A62387B52C08984000554C51 /* DisclosureGroupStyle+pile.swift in Sources */,
+				A67F9A782C0633B100F41586 /* RankRow.swift in Sources */,
+				A62EEA362C07A64A00E3AD4D /* EventEditor.swift in Sources */,
+				A62EEA382C07FDD900E3AD4D /* Binding+init.swift in Sources */,
+				A67F9A7A2C0633B100F41586 /* League.swift in Sources */,
+				A67F9A762C0633B100F41586 /* Rank.swift in Sources */,
+				A62EEA322C07A0E100E3AD4D /* Court.swift in Sources */,
+				A67F9A2D2C06335A00F41586 /* IonicupApp.swift in Sources */,
+				A62EEA342C07A11100E3AD4D /* CourtEditor.swift in Sources */,
+				A67F9A802C0633B100F41586 /* ModelPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A67F9A382C06335A00F41586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A67F9A392C06335A00F41586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A67F9A3B2C06335A00F41586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ionicup/Ionicup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ionicup/Preview Content\"";
+				DEVELOPMENT_TEAM = UB6UMQ5PGD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzofiamingo.Ionicup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A67F9A3C2C06335A00F41586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ionicup/Ionicup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ionicup/Preview Content\"";
+				DEVELOPMENT_TEAM = UB6UMQ5PGD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lorenzofiamingo.Ionicup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67F9A242C06335900F41586 /* Build configuration list for PBXProject "Ionicup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67F9A382C06335A00F41586 /* Debug */,
+				A67F9A392C06335A00F41586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67F9A3A2C06335A00F41586 /* Build configuration list for PBXNativeTarget "Ionicup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67F9A3B2C06335A00F41586 /* Debug */,
+				A67F9A3C2C06335A00F41586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A67F9A8F2C0633E800F41586 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A6A6F9642C0B61AF0071DC77 /* XCRemoteSwiftPackageReference "ionicup-models" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ionicup/ionicup-models";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A6CDFBD22C06354C0086481F /* XCRemoteSwiftPackageReference "swiftui-variadic-views" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-variadic-views";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A67F9A902C0633E800F41586 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A67F9A8F2C0633E800F41586 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		A6A6F9622C0AC7710071DC77 /* IonicupModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IonicupModels;
+		};
+		A6A6F9652C0B61AF0071DC77 /* IonicupModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6A6F9642C0B61AF0071DC77 /* XCRemoteSwiftPackageReference "ionicup-models" */;
+			productName = IonicupModels;
+		};
+		A6CDFBD42C06370C0086481F /* VariadicViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6CDFBD22C06354C0086481F /* XCRemoteSwiftPackageReference "swiftui-variadic-views" */;
+			productName = VariadicViews;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A67F9A212C06335900F41586 /* Project object */;
+}

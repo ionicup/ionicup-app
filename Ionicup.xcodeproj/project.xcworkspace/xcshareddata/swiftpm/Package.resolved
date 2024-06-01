@@ -1,0 +1,42 @@
+{
+  "originHash" : "2fe3447fa0875d613f8e1baf6174e2ac7e7d5a38fecab851159e62bc34ae938e",
+  "pins" : [
+    {
+      "identity" : "ionicup-models",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ionicup/ionicup-models",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3e530e1b361e0a0901eaf2e62c90b549da9ffa11"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms.git",
+      "state" : {
+        "revision" : "f6919dfc309e7f1b56224378b11e28bab5bccc42",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftui-variadic-views",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lorenzofiamingo/swiftui-variadic-views",
+      "state" : {
+        "revision" : "af67d0e85bd2b499fbfb4cda834117e7c52b12b0",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
